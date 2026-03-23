@@ -1,4 +1,4 @@
-# sisy.codes — Developer Docs Landing Page
+# sisy.codes - Developer Docs Landing Page
 
 **Domain:** sisy.codes
 **Status:** To Do (Medium Priority)

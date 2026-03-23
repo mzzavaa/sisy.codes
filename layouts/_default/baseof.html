@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — sisy.codes{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - sisy.codes{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — sisy.codes{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - sisy.codes{{ end }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
@@ -70,7 +70,7 @@
           <h4>Ecosystem</h4>
           <ul>
             <li><a href="https://sisy.world">sisy.world</a></li>
-            <li><a href="https://sisy.my">sisy.my — Profiles</a></li>
+            <li><a href="https://sisy.my">sisy.my - Profiles</a></li>
             <li><a href="https://sisy.social">sisy.social</a></li>
             <li><a href="https://sisy.today">sisy.today</a></li>
           </ul>
